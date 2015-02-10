@@ -5,7 +5,7 @@ void setup() {
 }
 
 void draw() {
-  background(255, 204, 0);
+  background(0, 204, 255);
   ellipse(x, height/2, 40, 40);
   x += 2;
   if (x > width + 40) {
